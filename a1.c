@@ -9,10 +9,11 @@ int main()
     
     int x,y;
     int *ptr;
-    
+    int a = 10;
     int i = 1;
     i = i++ * ++i;
     printf(i);
+    ptr = &a;
     printf("val = %d",*ptr);
     return 0;
     int *p1;

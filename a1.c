@@ -19,7 +19,7 @@ int main()
     printf(sizeof(p1));
     int b =1;
     b++;
-
+    printf("%d",b);
 }
 
 int *fetch()

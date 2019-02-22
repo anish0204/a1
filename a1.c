@@ -6,7 +6,7 @@ int main()
     int a[10] = {1,2,3,4,5,6,7,8,9,10};   //1
     printf("%d",a[9]);
 
-    int x,y;                              //2
+                                  //2
     int *ptr;                             
     ptr = fetch();
     int i = 1;
@@ -15,8 +15,9 @@ int main()
     return 0;
     int *p1;
     printf(sizeof(p1));
-    int b=1;                              //4
-    b++;
+    //int b=1;                              //4
+    //b++;
+    
 
 }
 

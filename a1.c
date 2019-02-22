@@ -9,7 +9,7 @@ int main()
     
     int x,y;
     int *ptr;
-    ptr = fetch();
+    
     int i = 1;
     i = i++ * ++i;
     printf(i);
@@ -22,8 +22,4 @@ int main()
     printf("%d",b);
 }
 
-int *fetch()
-{
-    int val = 100;
-    return val;
-}
+

@@ -4,9 +4,9 @@
 int main()
 {
     int a[10] = {1,2,3,4,5,6,7,8,9,10};
-    printf("%d",a[10]);
-    char a[5] = {'a','b','s','v','l'};
-
+    printf("%d",a[9]);
+    //char a[5] = {'a','b','s','v','l'};
+    
     int x,y;
     int *ptr;
     ptr = fetch();
@@ -15,9 +15,9 @@ int main()
     printf(i);
     printf("val = %d",*ptr);
     return 0;
-    void *p1;
+    int *p1;
     printf(sizeof(p1));
-    int b;
+    int b =1;
     b++;
 
 }
@@ -25,5 +25,5 @@ int main()
 int *fetch()
 {
     int val = 100;
-    return &val;
+    return val;
 }

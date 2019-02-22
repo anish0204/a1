@@ -4,7 +4,7 @@ int *fetch();
 int main()
 {
     int a[10] = {1,2,3,4,5,6,7,8,9,10};   //1
-    printf("%d",a[11]);
+    printf("%d",a[10]);
 
     int x,y;                              //2
     int *ptr;                             
@@ -13,15 +13,15 @@ int main()
     printf("%d",i);
     printf("val = %d",*ptr);
     return 0;
-    void *p1;
+    int *p1;
     printf(sizeof(p1));
-    int b;                              //4
+    int b=1;                              //4
     b++;
 
 }
 
-int *fetch()
-{
-    int val = 100;
-    return &val;
-}                                   //3
+//int *fetch()
+//{
+  //  int val = 100;
+    //return &val;
+//}                                   //3

@@ -4,11 +4,10 @@ int *fetch();
 int main()
 {
     int a[10] = {1,2,3,4,5,6,7,8,9,10};   //1
-    printf("%d",a[9]);
+    printf("%d",a[10]);
 
                                   //2
     int *ptr;                             
-    ptr = fetch();
     int i = 1;
     printf("%d",i);
     printf("val = %d",*ptr);
@@ -16,8 +15,8 @@ int main()
     printf(sizeof(p1));
     return 0;
     
-    //int b=1;                              //4
-    //b++;
+    int b=1;                              //4
+    b++;
     
 
 }

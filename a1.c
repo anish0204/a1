@@ -12,9 +12,10 @@ int main()
     int i = 1;
     printf("%d",i);
     printf("val = %d",*ptr);
-    return 0;
     int *p1;
     printf(sizeof(p1));
+    return 0;
+    
     //int b=1;                              //4
     //b++;
     
